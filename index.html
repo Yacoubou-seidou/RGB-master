@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <header id="header">
+        <h2>GUESS THE COLOR</h2>
+        <h3 id="color-rgb"></h3>
+        <div id="menu">
+          <div>
+            <button id="reset-el" onclick="reset() ">NEW COLORS</button>
+          </div>
+          <div>
+            <button id="easy-mode" onclick="easyMode()">EASY</button>
+            <button id="hard-mode" onclick="hardMode()">HARD</button>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <div class="top">
+          <div class="palette" id="one"></div>
+          <div class="palette" id="two"></div>
+          <div class="palette" id="three"></div>
+        </div>
+        <div class="down">
+          <div class="palette" id="four"></div>
+          <div class="palette" id="five"></div>
+          <div class="palette" id="six"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
